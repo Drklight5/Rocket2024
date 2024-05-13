@@ -1,0 +1,29 @@
+.Menu{
+    background: var(--bg);
+    display: flex;
+    color: var(--white);
+    padding: .5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Menu > .link{
+    color:var(--white);
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.Menu > .terminos {
+    background-color: var(--dark);
+    padding: .5rem 1rem;
+    font-weight: bold;
+    border-radius: 1rem ;
+}
+
+.Menu > .logo {
+    padding: 0  2rem;
+}
+.Menu > .logo > img{
+    height: 2.5rem;
+}
