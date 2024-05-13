@@ -1,3 +1,43 @@
 .banner{
     color:black;
+    background: var(--bg);
+    position: relative;
+    min-height: 10rem;
+    max-height: 30rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.banner > * {
+    position: relative;
+    z-index: 1;
+}
+.banner .desc{
+    background-color: var(--transparent);
+    color: var(--white);
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin: 5rem 3rem;
+}
+.banner  .aplica{
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 5rem 5rem 0 0 ;
+}
+.banner .terminos{
+    background-color: var(--transparent);
+    color: var(--white);
+    padding: 1rem;
+    margin: 1rem 5rem 0 0  ;
+}
+.banner > .bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    z-index: 0;
 }
